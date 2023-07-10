@@ -1,0 +1,13 @@
+{ 
+   "autoload": {
+        "psr-4": {
+          "front\\":"public",
+          "admin\\":"admin",   
+          "common\\":"common"                
+        }
+    },
+   "require": {
+      "klein/klein": "^2.1",
+      "illuminate/database": "^5.4"
+   }
+}
